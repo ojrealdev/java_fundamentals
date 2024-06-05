@@ -10,6 +10,10 @@ public class Person {
         System.out.println("In person constructor");
     }
 
+    public Person(String name) {
+        System.out.println("In person constructor:"+ name);
+    }
+
 
     public String getName() {
         return name;

@@ -6,7 +6,9 @@ public class Employee extends Person {
     private String employeeNumber;
     private String employeeTitle;
 
+
     public Employee(){
+        super("Stephen");
         System.out.println("Employee constructor");
     }
 
