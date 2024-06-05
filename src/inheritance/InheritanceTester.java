@@ -11,7 +11,8 @@ public class InheritanceTester {
         sq.setSide(5);
 
         sq.display();
-        //rct.display();
+        sq.display("Love!");
+        rct.display();
 
     }
 }

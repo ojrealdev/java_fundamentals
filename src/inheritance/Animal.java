@@ -5,6 +5,8 @@ public class Animal {
     private int age = 5;
 
     private String song;
+
+
     public void makeSound() {
         System.out.println(this.song);
     }

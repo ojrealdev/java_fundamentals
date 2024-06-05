@@ -5,14 +5,6 @@ public class Square extends Rectange {
 
     private int side;
 
-    public int getSide() {
-        return side;
-    }
-
-    public void setSide(int side) {
-        this.side = side;
-    }
-
     public Square() {
         super(50, 50);
     }
@@ -29,6 +21,17 @@ public class Square extends Rectange {
         System.out.println("The square area is: " + this.getArea());
     }
 
+    public String display(String txt) {
+        System.out.println("Overloaded function");
+        return txt;
+    }
 
+    public int getSide() {
+        return side;
+    }
+
+    public void setSide(int side) {
+        this.side = side;
+    }
 
 }
